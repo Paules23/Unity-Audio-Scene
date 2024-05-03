@@ -47,7 +47,6 @@ public class FootstepSound : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Hello: adwa");
         switch (collision.gameObject.tag)
         {
             
